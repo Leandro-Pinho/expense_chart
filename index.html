@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+
+<body>
+  <main class="container">
+
+    <header>
+      <div class="title">
+        <small>My balance</small>
+        <span>$921.48</span>
+      </div>
+      <img src="./images/logo.svg" alt="logo">
+    </header>
+
+    <section id="card">
+      <section id="board">
+        <h1>Spending - Last 7 days</h1>
+        <div id="week">
+          <div class="day">
+            <span class="spend"></span>
+            <div class="barra one" onclick="opentab()"></div>
+            <h2>mon</h2>
+          </div>
+          <div class="day">
+            <span class="spend"></span>
+            <div class="barra two" onclick="opentab()"></div>
+            <h2>tue</h2>
+          </div>
+          <div class="day">
+            <span class="spend"></span>
+            <div class="barra three active-link" onclick="opentab()"></div>
+            <h2>wed</h2>
+          </div>
+          <div class="day">
+            <span class="spend"></span>
+            <div class="barra four" onclick="opentab()"></div>
+            <h2>thu</h2>
+          </div>
+          <div class="day">
+            <span class="spend"></span>
+            <div class="barra five" onclick="opentab()"></div>
+            <h2>fri</h2>
+          </div>
+          <div class="day">
+            <span class="spend"></span>
+            <div class="barra six" onclick="opentab()"></div>
+            <h2>sat</h2>
+          </div>
+          <div class="day">
+            <span class="spend"></span>
+            <div class="barra seven" onclick="opentab()"></div>
+            <h2>sun</h2>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <div id="total">
+          <h2>Total this month</h2>
+          <span>$478.33</span>
+        </div>
+        <div id="percentage">
+          <span>+2.4%</span>
+          <h2>from last month</h2>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/leandro-pinho-4b5420126/">Leandro Pinho</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
