@@ -31,6 +31,7 @@ main {
     width: 400px;
     height: 500px;
     /* background: #fff; */
+    margin: 0 15px;
 }
 
 header {
@@ -280,7 +281,7 @@ main #card {
 
  /* para ativar os links */
 .day .barra.active-link::after {
-    opacity: 100;
+    
 }
 
 .day .barra.active-link {
